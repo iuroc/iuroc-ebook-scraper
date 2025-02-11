@@ -46,7 +46,7 @@ export class MagazineCatalog extends Catalog {
     item!: Magazine
 }
 
-@Entity()
+@Entity({ comment: '期刊分期列表' })
 export class Issue {
     @PrimaryGeneratedColumn()
     id!: number
