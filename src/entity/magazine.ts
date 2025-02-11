@@ -1,8 +1,10 @@
 import {
     ChildEntity,
     Column,
+    Entity,
     ManyToOne,
     OneToMany,
+    PrimaryGeneratedColumn,
 } from 'typeorm'
 import { Catalog, Category, ReadItem } from './common.js'
 
@@ -27,6 +29,9 @@ export class Magazine extends ReadItem {
 
     @OneToMany(() => MagazineCatalog, catalog => catalog.item)
     catalogs!: MagazineCatalog[]
+
+    @OneToMany(() => Issue, issue => issue.magazine)
+    issues!: Issue[]
 }
 
 @ChildEntity('magazine')
@@ -39,4 +44,31 @@ export class MagazineCatalog extends Catalog {
 
     @ManyToOne(() => Magazine, item => item.catalogs)
     item!: Magazine
+}
+
+@Entity()
+export class Issue {
+    @PrimaryGeneratedColumn()
+    id!: number
+
+    @Column('varchar')
+    issueId!: string
+
+    @Column('varchar', { name: '分期标题' })
+    name!: string
+
+    @Column('varchar', { name: '分期封面' })
+    cover!: string
+
+    @ManyToOne(() => Magazine, magazine => magazine.issues)
+    magazine!: Magazine
+
+    @Column('varchar')
+    surl!: string
+
+    @Column('varchar', { comment: '阅读器网页' })
+    webReader!: string
+
+    @Column('int')
+    index!: number
 }

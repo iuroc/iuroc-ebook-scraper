@@ -1,6 +1,6 @@
 import { Book, Magazine } from 'gede-book-api'
 import PQueue from 'p-queue'
-import { AppDataSource, BookCategoryRepository, BookRepository, MagazineCategoryRepository, MagazineRepository } from './dataSource.js'
+import { AppDataSource, BookCategoryRepository, BookRepository, IssueRepository, MagazineCategoryRepository, MagazineRepository } from './dataSource.js'
 
 await AppDataSource.initialize()
 
@@ -115,7 +115,29 @@ async function saveIssues() {
     const magazines = await MagazineRepository.find()
     const requestQueue = new PQueue({ concurrency: 10 })
 
-    console.log(await Magazine.getIssues(1241))
+    magazines.forEach(magazine => {
+        requestQueue.add(async () => {
+            const insertQueue = new PQueue({ concurrency: 10 })
+            const issues = await Magazine.getIssues(parseInt(magazine.chaoxingId))
+            console.log(`${magazine.chaoxingId} 获取分期列表完成，正在写入数据库`)
+            issues.forEach((issue, index) => {
+                insertQueue.add(async () => {
+                    await IssueRepository.insert({
+                        issueId: issue.issueId,
+                        name: issue.name,
+                        cover: issue.cover,
+                        surl: issue.surl,
+                        webReader: issue.webReader,
+                        magazine: { id: magazine.id },
+                        index
+                    })
+                })
+            })
+            await insertQueue.onIdle()
+        })
+    })
+
+    await requestQueue.onIdle()
 }
 
 // console.log('正在获取分类列表')
@@ -124,7 +146,7 @@ async function saveIssues() {
 // await saveBookItems()
 // console.log('正在获取期刊列表')
 // await saveMagazineItems()
-
-await saveIssues()
+// console.log('正在获取期刊分期列表')
+// await saveIssues()
 
 await AppDataSource.destroy()
