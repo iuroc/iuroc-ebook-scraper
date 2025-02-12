@@ -1,4 +1,4 @@
-import { Column, DataSource, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm'
+import { DataSource } from 'typeorm'
 import { Catalog, Category, Content, ReadItem } from './entity/common.js'
 import { Book, BookCatalog, BookCategory, BookContent } from './entity/book.js'
 import { Issue, Magazine, MagazineCatalog, MagazineCategory, MagazineContent } from './entity/magazine.js'
@@ -10,7 +10,7 @@ export const AppDataSource = new DataSource({
     username: 'root',
     password: '12345678',
     synchronize: true,
-    database: 'iuroc_ebook',
+    database: 'iuroc_ebook_test',
     entities: [
         Catalog, Category, ReadItem, Content,
         Book, BookCategory, BookCatalog, BookContent,

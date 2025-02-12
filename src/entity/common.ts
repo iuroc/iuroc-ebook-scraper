@@ -21,6 +21,7 @@ export abstract class Category {
     type!: 'book' | 'magazine'
 
     @Column('varchar', { comment: '分类名称' })
+    @Index()
     name!: string
 
     /** 该分类下的书刊列表 */

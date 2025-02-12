@@ -1,155 +1,15 @@
-import { Book, BookData, Magazine } from 'gede-book-api'
+import { BookData, Magazine } from 'gede-book-api'
 import PQueue from 'p-queue'
 import { Issue } from './entity/magazine.js'
 import {
     AppDataSource,
-    BookCategoryRepository,
-    BookRepository,
     IssueRepository,
     MagazineCatalogRepository,
-    MagazineCategoryRepository,
     MagazineContentRepository,
-    MagazineRepository
 } from './dataSource.js'
 import { writeFileSync } from 'fs'
-
-/** 将所有的书刊分类保存到数据库 */
-async function saveCategories() {
-    const insertQueue = new PQueue({ concurrency: 20 })
-    const bookCategories = await Book.getCategories()
-    bookCategories.forEach(category => {
-        insertQueue.add(async () => {
-            await BookCategoryRepository.insert({
-                chaoxingId: category.id,
-                name: category.name
-            })
-        })
-    })
-    const magazineCategories = await Magazine.getCategories()
-    magazineCategories.forEach(category => {
-        insertQueue.add(async () => {
-            await MagazineCategoryRepository.insert({
-                chaoxingId: category.id,
-                name: category.name
-            })
-        })
-    })
-    await insertQueue.onIdle()
-}
-
-async function saveBookItems() {
-    const categories = await BookCategoryRepository.find()
-    const requestQueue = new PQueue({ concurrency: 20 })
-
-    categories.forEach(category => {
-        requestQueue.add(async () => {
-            try {
-                const list = await Book.getList(category.chaoxingId, 0, 10000)
-                console.log(`${category.chaoxingId} 获取图书列表成功，正在写入数据库`)
-                const insertQueue = new PQueue({ concurrency: 20 })
-                list.forEach(item => {
-                    insertQueue.add(async () => {
-                        await BookRepository.insert({
-                            author: item.author,
-                            publish: item.publish,
-                            bigCover: item.bigCover,
-                            webReader: item.webReader,
-                            idType: item.type,
-                            isbn: item.isbn,
-                            category: { id: category.id },
-                            name: item.name,
-                            surl: item.surl,
-                            summary: item.summary,
-                            cover: item.smallCover,
-                            chaoxingId: item.id,
-                        })
-                    })
-                })
-                await insertQueue.onIdle()
-            } catch (error) {
-                if (error instanceof Error) {
-                    console.error(category.chaoxingId, error.message)
-                }
-            }
-        })
-    })
-    await requestQueue.onIdle()
-}
-
-async function saveMagazineItems() {
-    const categories = await MagazineCategoryRepository.find({ where: { type: 'magazine' } })
-    const requestQueue = new PQueue({ concurrency: 10 })
-    const insertQueue = new PQueue({ concurrency: 10 })
-
-    categories.forEach(category => {
-        requestQueue.add(async () => {
-            try {
-                const list = await Magazine.getList(category.chaoxingId, 0, 10000)
-                console.log(`${category.chaoxingId} 获取期刊列表成功，正在写入数据库`)
-                list.forEach(item => {
-                    insertQueue.add(async () => {
-                        try {
-                            await MagazineRepository.insert({
-                                cn: item.cn,
-                                issn: item.issn,
-                                category: { id: category.id },
-                                name: item.name,
-                                surl: item.surl,
-                                summary: item.summary,
-                                cover: item.cover,
-                                chaoxingId: item.id.toString(),
-                            })
-                        } catch (error) {
-                            if (error instanceof Error) {
-                                console.error(error.message)
-                                console.log(item)
-                                process.exit()
-                            }
-                        }
-                    })
-                })
-            } catch (error) {
-                if (error instanceof Error) {
-                    console.error(category.chaoxingId, error.message)
-                }
-            }
-        })
-    })
-    await requestQueue.onIdle()
-    await insertQueue.onIdle()
-}
-
-/** 获取期刊分期列表 */
-async function saveIssues() {
-    const magazines = await MagazineRepository.find()
-    const requestQueue = new PQueue({ concurrency: 20 })
-
-    magazines.forEach(magazine => {
-        requestQueue.add(async () => {
-            const insertQueue = new PQueue({ concurrency: 20 })
-            const issues = await Magazine.getIssues(parseInt(magazine.chaoxingId))
-            console.log(`${magazine.chaoxingId} 获取分期列表完成，正在写入数据库`)
-            issues.forEach((issue, index) => {
-                insertQueue.add(async () => {
-                    await IssueRepository.insert({
-                        issueId: issue.issueId,
-                        name: issue.name,
-                        cover: issue.cover,
-                        surl: issue.surl,
-                        webReader: issue.webReader,
-                        magazine: { id: magazine.id },
-                        index
-                    })
-                })
-            })
-            await insertQueue.onIdle()
-        })
-    })
-
-    await requestQueue.onIdle()
-}
-
-
+import { saveBook, saveBookCategory } from './book.js'
+import { saveIssue, saveMagazine, saveMagazineCategory } from './magazine.js'
 
 const insertCatalogs = async (errorList: any[], issue: Issue, catalogs: BookData['catalogs'], parentId?: number) => {
     const insertQueue = new PQueue({ concurrency: 20 })
@@ -215,7 +75,9 @@ async function saveMagazineContent(issues?: Issue[]) {
     writeFileSync('errorList_20000-30000.json', JSON.stringify(errorChaoxingIdList))
 }
 
+console.log('[初始化数据源] 开始')
 await AppDataSource.initialize()
+console.log('[初始化数据源] 结束')
 
 // console.log('正在获取分类列表')
 // await saveCategories()
@@ -280,4 +142,12 @@ await AppDataSource.initialize()
 
 // await saveMagazineContent()
 
+await saveBookCategory()
+await saveBook()
+await saveMagazineCategory()
+await saveMagazine()
+await saveIssue()
+
+console.log('[销毁数据源] 开始')
 await AppDataSource.destroy()
+console.log('[销毁数据源] 结束')
