@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "dodo-upload": "^1.0.10",
-    "gede-book-api": "^1.0.21",
+    "gede-book-api": "^1.0.22",
     "mysql2": "^3.12.0",
     "p-queue": "^8.1.0",
     "typeorm": "^0.3.20"

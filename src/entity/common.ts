@@ -1,15 +1,11 @@
 import {
-    ChildEntity,
     Column,
     Entity,
     Index,
-    ManyToOne,
-    OneToMany,
     PrimaryGeneratedColumn,
     TableInheritance,
-    Unique
 } from 'typeorm'
-import { BookItem } from 'gede-book-api'
+import { Issue } from './magazine.js'
 
 @Entity({ comment: '书刊分类' })
 @TableInheritance({ column: { type: 'varchar', name: 'type' } })
@@ -57,8 +53,6 @@ export abstract class ReadItem {
 
     /** 该书刊所属的分类 */
     abstract category: Category
-    /** 该书刊的目录列表 */
-    abstract catalogs: Catalog[]
 }
 
 @Entity({ comment: '书刊目录' })
@@ -67,27 +61,33 @@ export abstract class Catalog {
     @PrimaryGeneratedColumn()
     id!: number
 
-    @Column('int', { comment: '章节起始页码' })
+    @Column('int', { comment: '章节起始页码', nullable: true })
     page!: number
 
-    @Column('varchar', { comment: '章节标题' })
+    @Column('text', { comment: '章节标题' })
     title!: string
 
-    @Column('int', { comment: '父目录' })
+    @Column('int', { comment: '父目录', nullable: true })
     parentId!: number
 
-    @Column('int', { comment: '所属书刊' })
-    itemId!: number
+    @Column('int')
+    index!: number
 
     /** 该目录的子目录列表 */
     abstract childrens: Catalog[]
     /** 该目录的父目录 */
     abstract parent: Catalog
-    /** 该目录所属的书刊 */
-    abstract item: ReadItem
 }
 
-@Entity()
-export class Content {
+@Entity({ comment: '书刊章节内容' })
+@TableInheritance({ column: { type: 'varchar', name: 'type' } })
+export abstract class Content {
+    @PrimaryGeneratedColumn()
+    id!: number
 
+    @Column('int')
+    index!: number
+
+    @Column('longtext')
+    content!: string
 }

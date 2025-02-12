@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.10
         version: 1.0.10
       gede-book-api:
-        specifier: ^1.0.21
-        version: 1.0.21
+        specifier: ^1.0.22
+        version: 1.0.22
       mysql2:
         specifier: ^3.12.0
         version: 3.12.0
@@ -329,8 +329,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  gede-book-api@1.0.21:
-    resolution: {integrity: sha512-rWhEljfjIlkwO2IsOD6CRqFxg28S/eMZw5/j1ZLm9KkLIERDTvEA9h3vtgJ5r49A3AKlT9I1xUjDWIMFDKQJNA==}
+  gede-book-api@1.0.22:
+    resolution: {integrity: sha512-XPDdZr8LwlZXlQQyrVZHH9VYAmozgAQiS45b7Q9TA5nq2BYS7pT/qGqLE6ZrL65Vhp1OinyyT+3McGsiCnEFeQ==}
 
   generate-function@2.3.1:
     resolution: {integrity: sha512-eeB5GfMNeevm/GRYq20ShmsaGcmI81kIX2K9XQx5miC8KdHaC6Jm0qQ8ZNeGOi7wYB8OsdxKs+Y2oVuTFuVwKQ==}
@@ -885,7 +885,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  gede-book-api@1.0.21: {}
+  gede-book-api@1.0.22: {}
 
   generate-function@2.3.1:
     dependencies:

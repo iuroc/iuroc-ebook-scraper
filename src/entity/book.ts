@@ -5,7 +5,7 @@ import {
     OneToMany,
 } from 'typeorm'
 import { BookItem } from 'gede-book-api'
-import { Catalog, Category, ReadItem } from './common.js'
+import { Catalog, Category, Content, ReadItem } from './common.js'
 
 @ChildEntity('book')
 export class BookCategory extends Category {
@@ -38,11 +38,14 @@ export class Book extends ReadItem {
     @Column('varchar')
     isbn!: string
 
-    @ManyToOne(() => BookCategory, category => category.items)
+    @ManyToOne(() => BookCategory, category => category.items, { onDelete: 'CASCADE' })
     category!: BookCategory
 
-    @OneToMany(() => BookCatalog, catalog => catalog.item)
+    @OneToMany(() => BookCatalog, catalog => catalog.book)
     catalogs!: BookCatalog[]
+
+    @OneToMany(() => BookContent, content => content.book)
+    contents!: BookContent[]
 }
 
 @ChildEntity('book')
@@ -50,9 +53,15 @@ export class BookCatalog extends Catalog {
     @OneToMany(() => BookCatalog, catalog => catalog.parent)
     childrens!: BookCatalog[]
 
-    @ManyToOne(() => BookCatalog, catalog => catalog.childrens)
+    @ManyToOne(() => BookCatalog, catalog => catalog.childrens, { onDelete: 'CASCADE' })
     parent!: BookCatalog
 
-    @ManyToOne(() => Book, item => item.catalogs)
-    item!: Book
+    @ManyToOne(() => Book, item => item.catalogs, { onDelete: 'CASCADE' })
+    book!: Book
+}
+
+@ChildEntity('book')
+export class BookContent extends Content {
+    @ManyToOne(() => Book, book => book.contents, { onDelete: 'CASCADE' })
+    book!: Book
 }
