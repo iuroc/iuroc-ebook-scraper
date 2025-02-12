@@ -1,11 +1,17 @@
 import { Book, BookData, Magazine } from 'gede-book-api'
 import PQueue from 'p-queue'
-import { Issue, Magazine as MagazineEntity } from './entity/magazine.js'
-import { AppDataSource, BookCatalogRepository, BookCategoryRepository, BookContentRepository, BookRepository, IssueRepository, MagazineCatalogRepository, MagazineCategoryRepository, MagazineContentRepository, MagazineRepository } from './dataSource.js'
-import { readFileSync, writeFileSync } from 'fs'
-import { saveBookContent } from './saveBookContent.js'
-import { Book as BookEntity } from './entity/book.js'
-
+import { Issue } from './entity/magazine.js'
+import {
+    AppDataSource,
+    BookCategoryRepository,
+    BookRepository,
+    IssueRepository,
+    MagazineCatalogRepository,
+    MagazineCategoryRepository,
+    MagazineContentRepository,
+    MagazineRepository
+} from './dataSource.js'
+import { writeFileSync } from 'fs'
 
 /** 将所有的书刊分类保存到数据库 */
 async function saveCategories() {
@@ -272,6 +278,6 @@ await AppDataSource.initialize()
 // const books = (JSON.parse(readFileSync('errorList_back.json').toString()) as { book: BookEntity }[]).map(i => i.book)
 // await saveBookContent(books)
 
-await saveMagazineContent()
+// await saveMagazineContent()
 
 await AppDataSource.destroy()

@@ -1,6 +1,7 @@
 import {
     ChildEntity,
     Column,
+    Index,
     ManyToOne,
     OneToMany,
 } from 'typeorm'
@@ -16,6 +17,7 @@ export class BookCategory extends Category {
 @ChildEntity('book')
 export class Book extends ReadItem {
     @Column('varchar', { comment: '图书作者' })
+    @Index()
     author!: string
 
     /** 出版社名称 */

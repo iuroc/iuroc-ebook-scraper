@@ -34,6 +34,7 @@ export abstract class ReadItem {
     id!: number
 
     @Column('varchar', { comment: '书刊名称' })
+    @Index()
     name!: string
 
     @Column('varchar')
