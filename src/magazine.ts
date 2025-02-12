@@ -128,7 +128,7 @@ async function saveMagazineCatalog(issue: Issue, catalogs: BookData['catalogs'],
                 issue: { id: issue.id }
             })
             if (catalog.children?.length > 0) {
-                await saveMagazineCatalog(issue, catalog.children, result.identifiers[0].id)
+                await saveMagazineCatalog(issue, catalog.children, result.identifiers[0] as MagazineCatalog)
             }
         })
     })

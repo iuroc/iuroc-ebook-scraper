@@ -91,7 +91,7 @@ async function saveBookCatalog(book: BookEntity, catalogs: BookData['catalogs'],
                 book: { id: book.id }
             })
             if (catalog.children?.length > 0) {
-                await saveBookCatalog(book, catalog.children, result.identifiers[0].id)
+                await saveBookCatalog(book, catalog.children, result.identifiers[0] as BookCatalog)
             }
         })
     })
