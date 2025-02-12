@@ -66,7 +66,7 @@ export abstract class Catalog {
     @Column('int', { comment: '章节起始页码', nullable: true })
     page!: number
 
-    @Column('text', { comment: '章节标题' })
+    @Column('text', { comment: '章节标题', nullable: true })
     title!: string
 
     @Column('int', { comment: '父目录', nullable: true })
