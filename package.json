@@ -4,8 +4,11 @@
   "description": "电子书采集程序",
   "scripts": {
     "start": "tsx src/main.ts",
-    "dev": "tsx watch src/main.ts"
+    "dev": "tsx watch src/main.ts",
+    "build": "pkgroll --minify --clean-dist --sourcemap"
   },
+  "types": "./dist/lib.d.mts",
+  "exports": "./dist/lib.mjs",
   "keywords": [],
   "author": "iuroc",
   "license": "ISC",
