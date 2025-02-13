@@ -1,0 +1,1742 @@
+[
+    {
+        "issue": {
+            "id": 2792,
+            "issueId": "MZ12027553",
+            "name": "2021年第52期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220223/BJZB202152.jpg",
+            "surl": "https://gede.5read.com/g/83353990.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/83353990.h",
+            "index": 94
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2793,
+            "issueId": "MZ12027069",
+            "name": "2021年第51期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220121/BJZB202151.jpg",
+            "surl": "https://gede.5read.com/g/82722771.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/82722771.h",
+            "index": 95
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2791,
+            "issueId": "MZ12028042",
+            "name": "2022年第C1期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220328/BJZB2022C1.jpg",
+            "surl": "https://gede.5read.com/g/84833098.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/84833098.h",
+            "index": 93
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2796,
+            "issueId": "MZ12028228",
+            "name": "2022年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220328/LLJY202202.jpg",
+            "surl": "https://gede.5read.com/g/84833284.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/84833284.h",
+            "index": 20
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2797,
+            "issueId": "MZ12026504",
+            "name": "2021年第48期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/BJZB202148.jpg",
+            "surl": "https://gede.5read.com/g/81688947.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81688947.h",
+            "index": 98
+        },
+        "message": "O-图书接口地址出错[{http://gede.5read.com/apis/magazine/magazineItemInfo.jspx?min=MZ12026504}]"
+    },
+    {
+        "issue": {
+            "id": 2799,
+            "issueId": "MZ12027294",
+            "name": "2021年第12期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220121/LLJY202112.jpg",
+            "surl": "https://gede.5read.com/g/82722996.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/82722996.h",
+            "index": 22
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 2798,
+            "issueId": "MZ12027765",
+            "name": "2022年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220223/LLJY202201.jpg",
+            "surl": "https://gede.5read.com/g/83354202.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/83354202.h",
+            "index": 21
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 2802,
+            "issueId": "MZ12023947",
+            "name": "2021年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211027/LLJY202109.jpg",
+            "surl": "https://gede.5read.com/g/77667755.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/77667755.h",
+            "index": 25
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 2800,
+            "issueId": "MZ12026747",
+            "name": "2021年第11期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/LLJY202111.jpg",
+            "surl": "https://gede.5read.com/g/81689190.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81689190.h",
+            "index": 23
+        },
+        "message": "O-图书接口地址出错[{http://gede.5read.com/apis/magazine/magazineItemInfo.jspx?min=MZ12026747}]"
+    },
+    {
+        "issue": {
+            "id": 2801,
+            "issueId": "MZ12025127",
+            "name": "2021年第10期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211207/LLJY202110.jpg",
+            "surl": "https://gede.5read.com/g/80959553.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/80959553.h",
+            "index": 24
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 2803,
+            "issueId": "MZ12023655",
+            "name": "2021年第08期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211011/LLJY202108.jpg",
+            "surl": "https://gede.5read.com/g/76359163.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/76359163.h",
+            "index": 26
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 2805,
+            "issueId": "MZ12033080",
+            "name": "2022年第32期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221226/SPAQ202232.jpg",
+            "surl": "https://gede.5read.com/g/89472471.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89472471.h",
+            "index": 30
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2806,
+            "issueId": "MZ12033079",
+            "name": "2022年第31期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221226/SPAQ202231.jpg",
+            "surl": "https://gede.5read.com/g/89472470.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89472470.h",
+            "index": 31
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 2804,
+            "issueId": "MZ12023348",
+            "name": "2021年第07期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210826/LLJY202107.jpg",
+            "surl": "https://gede.5read.com/g/73159015.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/73159015.h",
+            "index": 27
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2809,
+            "issueId": "MZ12032573",
+            "name": "2022年第29期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221130/SPAQ202229.jpg",
+            "surl": "https://gede.5read.com/g/89443477.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89443477.h",
+            "index": 33
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 2808,
+            "issueId": "MZ12034547",
+            "name": "2022年第30期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230405/SPAQ202230.jpg",
+            "surl": "https://gede.5read.com/g/89564884.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89564884.h",
+            "index": 32
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2810,
+            "issueId": "MZ12026503",
+            "name": "2021年第47期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/BJZB202147.jpg",
+            "surl": "https://gede.5read.com/g/81688946.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81688946.h",
+            "index": 99
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2811,
+            "issueId": "MZ12032572",
+            "name": "2022年第28期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221130/SPAQ202228.jpg",
+            "surl": "https://gede.5read.com/g/89443476.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89443476.h",
+            "index": 34
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2812,
+            "issueId": "MZ12033519",
+            "name": "2022年第27期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230131/SPAQ202227.jpg",
+            "surl": "https://gede.5read.com/g/89502263.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89502263.h",
+            "index": 35
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2813,
+            "issueId": "MZ12022514",
+            "name": "2021年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210629/LLJY202105.jpg",
+            "surl": "https://gede.5read.com/g/71589252.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/71589252.h",
+            "index": 29
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2814,
+            "issueId": "MZ12032571",
+            "name": "2022年第26期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221130/SPAQ202226.jpg",
+            "surl": "https://gede.5read.com/g/89443475.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89443475.h",
+            "index": 36
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2815,
+            "issueId": "MZ12017233",
+            "name": "2020年第11期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202011.jpg",
+            "surl": "https://gede.5read.com/g/52956570.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956570.h",
+            "index": 120
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2816,
+            "issueId": "MZ12032570",
+            "name": "2022年第25期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221130/SPAQ202225.jpg",
+            "surl": "https://gede.5read.com/g/89443474.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89443474.h",
+            "index": 37
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2817,
+            "issueId": "MZ12033078",
+            "name": "2022年第24期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221226/SPAQ202224.jpg",
+            "surl": "https://gede.5read.com/g/89472469.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89472469.h",
+            "index": 38
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2819,
+            "issueId": "MZ12032089",
+            "name": "2022年第23期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221101/SPAQ202223.jpg",
+            "surl": "https://gede.5read.com/g/89410308.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89410308.h",
+            "index": 39
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2820,
+            "issueId": "MZ12017138",
+            "name": "2020年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202009.jpg",
+            "surl": "https://gede.5read.com/g/52956475.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956475.h",
+            "index": 122
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2821,
+            "issueId": "MZ12017137",
+            "name": "2020年第08期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202008.jpg",
+            "surl": "https://gede.5read.com/g/52956474.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956474.h",
+            "index": 123
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2822,
+            "issueId": "MZ12017136",
+            "name": "2020年第07期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202007.jpg",
+            "surl": "https://gede.5read.com/g/52956473.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956473.h",
+            "index": 124
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2823,
+            "issueId": "MZ12017101",
+            "name": "2020年第06期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202006.jpg",
+            "surl": "https://gede.5read.com/g/52956438.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956438.h",
+            "index": 125
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2824,
+            "issueId": "MZ12017100",
+            "name": "2020年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202005.jpg",
+            "surl": "https://gede.5read.com/g/52956437.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956437.h",
+            "index": 126
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2826,
+            "issueId": "MZ12017539",
+            "name": "2020年第03期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202003.jpg",
+            "surl": "https://gede.5read.com/g/52956876.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956876.h",
+            "index": 128
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2829,
+            "issueId": "MZ12037555",
+            "name": "2023年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231103/CHMI202304.jpg",
+            "surl": "https://gede.5read.com/g/89920755.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89920755.h",
+            "index": 1
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2828,
+            "issueId": "MZ12017538",
+            "name": "2020年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202002.jpg",
+            "surl": "https://gede.5read.com/g/52956875.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956875.h",
+            "index": 129
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2827,
+            "issueId": "MZ12038534",
+            "name": "2023年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231212/CHMI202305.jpg",
+            "surl": "https://gede.5read.com/g/89949547.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89949547.h",
+            "index": 0
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2830,
+            "issueId": "MZ12036379",
+            "name": "2023年第03期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230731/CHMI202303.jpg",
+            "surl": "https://gede.5read.com/g/89712130.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89712130.h",
+            "index": 2
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2831,
+            "issueId": "MZ12036378",
+            "name": "2023年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230731/CHMI202302.jpg",
+            "surl": "https://gede.5read.com/g/89712129.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89712129.h",
+            "index": 3
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2832,
+            "issueId": "MZ12034753",
+            "name": "2023年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230426/CHMI202301.jpg",
+            "surl": "https://gede.5read.com/g/89631436.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89631436.h",
+            "index": 4
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2833,
+            "issueId": "MZ12034752",
+            "name": "2022年第06期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230426/CHMI202206.jpg",
+            "surl": "https://gede.5read.com/g/89631435.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89631435.h",
+            "index": 5
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2834,
+            "issueId": "MZ12033278",
+            "name": "2022年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230131/CHMI202205.jpg",
+            "surl": "https://gede.5read.com/g/89502022.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89502022.h",
+            "index": 6
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2836,
+            "issueId": "MZ12030815",
+            "name": "2022年第03期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220826/CHMI202203.jpg",
+            "surl": "https://gede.5read.com/g/89319624.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89319624.h",
+            "index": 8
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2835,
+            "issueId": "MZ12032282",
+            "name": "2022年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221130/CHMI202204.jpg",
+            "surl": "https://gede.5read.com/g/89443186.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89443186.h",
+            "index": 7
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2839,
+            "issueId": "MZ12026501",
+            "name": "2021年第45期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/BJZB202145.jpg",
+            "surl": "https://gede.5read.com/g/81688944.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81688944.h",
+            "index": 101
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2838,
+            "issueId": "MZ12026502",
+            "name": "2021年第46期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/BJZB202146.jpg",
+            "surl": "https://gede.5read.com/g/81688945.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81688945.h",
+            "index": 100
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2840,
+            "issueId": "MZ12026500",
+            "name": "2021年第44期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/BJZB202144.jpg",
+            "surl": "https://gede.5read.com/g/81688943.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81688943.h",
+            "index": 102
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2841,
+            "issueId": "MZ12024197",
+            "name": "2021年第43期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211207/BJZB202143.jpg",
+            "surl": "https://gede.5read.com/g/80958623.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/80958623.h",
+            "index": 103
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2842,
+            "issueId": "MZ12024196",
+            "name": "2021年第42期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211207/BJZB202142.jpg",
+            "surl": "https://gede.5read.com/g/80958622.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/80958622.h",
+            "index": 104
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2843,
+            "issueId": "MZ12022130",
+            "name": "2021年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210527/LLJY202104.jpg",
+            "surl": "https://gede.5read.com/g/70276855.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/70276855.h",
+            "index": 30
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2844,
+            "issueId": "MZ12023783",
+            "name": "2021年第39期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211027/BJZB202139.jpg",
+            "surl": "https://gede.5read.com/g/77667591.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/77667591.h",
+            "index": 105
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2846,
+            "issueId": "MZ12023781",
+            "name": "2021年第37期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211027/BJZB202137.jpg",
+            "surl": "https://gede.5read.com/g/77667589.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/77667589.h",
+            "index": 107
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2845,
+            "issueId": "MZ12023782",
+            "name": "2021年第38期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211027/BJZB202138.jpg",
+            "surl": "https://gede.5read.com/g/77667590.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/77667590.h",
+            "index": 106
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2847,
+            "issueId": "MZ12023544",
+            "name": "2021年第36期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211011/BJZB202136.jpg",
+            "surl": "https://gede.5read.com/g/76359052.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/76359052.h",
+            "index": 108
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2848,
+            "issueId": "MZ12021780",
+            "name": "2021年第03期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210428/LLJY202103.jpg",
+            "surl": "https://gede.5read.com/g/68884515.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/68884515.h",
+            "index": 31
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2849,
+            "issueId": "MZ12021779",
+            "name": "2021年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210428/LLJY202102.jpg",
+            "surl": "https://gede.5read.com/g/68884514.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/68884514.h",
+            "index": 32
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2850,
+            "issueId": "MZ12021160",
+            "name": "2021年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210303/LLJY202101.jpg",
+            "surl": "https://gede.5read.com/g/65524432.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/65524432.h",
+            "index": 33
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2851,
+            "issueId": "MZ12020398",
+            "name": "2020年第12期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210107/LLJY202012.jpg",
+            "surl": "https://gede.5read.com/g/64420673.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/64420673.h",
+            "index": 34
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2852,
+            "issueId": "MZ12031626",
+            "name": "2022年第22期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220929/SPAQ202222.jpg",
+            "surl": "https://gede.5read.com/g/89360320.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89360320.h",
+            "index": 40
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2853,
+            "issueId": "MZ12020397",
+            "name": "2020年第11期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210107/LLJY202011.jpg",
+            "surl": "https://gede.5read.com/g/64420672.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/64420672.h",
+            "index": 35
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2854,
+            "issueId": "MZ12020396",
+            "name": "2020年第10期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210107/LLJY202010.jpg",
+            "surl": "https://gede.5read.com/g/64420671.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/64420671.h",
+            "index": 36
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2857,
+            "issueId": "MZ12018364",
+            "name": "2020年第08期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/201015/LLJY202008.jpg",
+            "surl": "https://gede.5read.com/g/58790706.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/58790706.h",
+            "index": 38
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2856,
+            "issueId": "MZ12032569",
+            "name": "2022年第21期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221130/SPAQ202221.jpg",
+            "surl": "https://gede.5read.com/g/89443473.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89443473.h",
+            "index": 41
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2855,
+            "issueId": "MZ12018546",
+            "name": "2020年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/201104/LLJY202009.jpg",
+            "surl": "https://gede.5read.com/g/60072325.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/60072325.h",
+            "index": 37
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2858,
+            "issueId": "MZ12031127",
+            "name": "2022年第20期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220826/SPAQ202220.jpg",
+            "surl": "https://gede.5read.com/g/89319936.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89319936.h",
+            "index": 42
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2859,
+            "issueId": "MZ12023543",
+            "name": "2021年第35期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211011/BJZB202135.jpg",
+            "surl": "https://gede.5read.com/g/76359051.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/76359051.h",
+            "index": 109
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2860,
+            "issueId": "MZ12031126",
+            "name": "2022年第19期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220826/SPAQ202219.jpg",
+            "surl": "https://gede.5read.com/g/89319935.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89319935.h",
+            "index": 43
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2861,
+            "issueId": "MZ12032088",
+            "name": "2022年第18期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/221101/SPAQ202218.jpg",
+            "surl": "https://gede.5read.com/g/89410307.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89410307.h",
+            "index": 44
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2863,
+            "issueId": "MZ12017765",
+            "name": "2020年第07期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200803/LLJY202007.jpg",
+            "surl": "https://gede.5read.com/g/54139539.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/54139539.h",
+            "index": 39
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2864,
+            "issueId": "MZ12017537",
+            "name": "2020年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200707/GHBL202001.jpg",
+            "surl": "https://gede.5read.com/g/52956874.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52956874.h",
+            "index": 130
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2865,
+            "issueId": "MZ12030614",
+            "name": "2022年第16期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220727/SPAQ202216.jpg",
+            "surl": "https://gede.5read.com/g/89236345.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89236345.h",
+            "index": 46
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2866,
+            "issueId": "MZ12031125",
+            "name": "2022年第15期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220826/SPAQ202215.jpg",
+            "surl": "https://gede.5read.com/g/89319934.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89319934.h",
+            "index": 47
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2868,
+            "issueId": "MZ12030007",
+            "name": "2022年第13期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220630/SPAQ202213.jpg",
+            "surl": "https://gede.5read.com/g/88837772.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/88837772.h",
+            "index": 49
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2867,
+            "issueId": "MZ12030008",
+            "name": "2022年第14期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220630/SPAQ202214.jpg",
+            "surl": "https://gede.5read.com/g/88837773.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/88837773.h",
+            "index": 48
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2869,
+            "issueId": "MZ12026515",
+            "name": "2021年第10期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/CHMI202110.jpg",
+            "surl": "https://gede.5read.com/g/81688958.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81688958.h",
+            "index": 10
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2870,
+            "issueId": "MZ12024219",
+            "name": "2021年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211207/CHMI202109.jpg",
+            "surl": "https://gede.5read.com/g/80958645.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/80958645.h",
+            "index": 11
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2871,
+            "issueId": "MZ12023555",
+            "name": "2021年第06期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211011/CHMI202106.jpg",
+            "surl": "https://gede.5read.com/g/76359063.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/76359063.h",
+            "index": 12
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2872,
+            "issueId": "MZ12022762",
+            "name": "2021年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210729/CHMI202105.jpg",
+            "surl": "https://gede.5read.com/g/72374173.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/72374173.h",
+            "index": 13
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2873,
+            "issueId": "MZ12038517",
+            "name": "2023年第20期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231212/BASH202320.jpg",
+            "surl": "https://gede.5read.com/g/89949530.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89949530.h",
+            "index": 0
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2874,
+            "issueId": "MZ12038516",
+            "name": "2023年第19期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231212/BASH202319.jpg",
+            "surl": "https://gede.5read.com/g/89949529.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89949529.h",
+            "index": 1
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2875,
+            "issueId": "MZ12037521",
+            "name": "2023年第18期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231103/BASH202318.jpg",
+            "surl": "https://gede.5read.com/g/89920721.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89920721.h",
+            "index": 2
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2877,
+            "issueId": "MZ12036973",
+            "name": "2023年第16期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230830/BASH202316.jpg",
+            "surl": "https://gede.5read.com/g/89771883.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89771883.h",
+            "index": 4
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2878,
+            "issueId": "MZ12036972",
+            "name": "2023年第15期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230830/BASH202315.jpg",
+            "surl": "https://gede.5read.com/g/89771882.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89771882.h",
+            "index": 5
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2879,
+            "issueId": "MZ12037519",
+            "name": "2023年第14期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231103/BASH202314.jpg",
+            "surl": "https://gede.5read.com/g/89920719.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89920719.h",
+            "index": 6
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2880,
+            "issueId": "MZ12036971",
+            "name": "2023年第13期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230830/BASH202313.jpg",
+            "surl": "https://gede.5read.com/g/89771881.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89771881.h",
+            "index": 7
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2883,
+            "issueId": "MZ12022000",
+            "name": "2021年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210527/CHMI202104.jpg",
+            "surl": "https://gede.5read.com/g/70276725.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/70276725.h",
+            "index": 14
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2882,
+            "issueId": "MZ12036355",
+            "name": "2023年第11期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230731/BASH202311.jpg",
+            "surl": "https://gede.5read.com/g/89712106.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89712106.h",
+            "index": 9
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2884,
+            "issueId": "MZ12022318",
+            "name": "2021年第03期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210629/CHMI202103.jpg",
+            "surl": "https://gede.5read.com/g/71589056.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/71589056.h",
+            "index": 15
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2885,
+            "issueId": "MZ12021349",
+            "name": "2021年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210324/CHMI202102.jpg",
+            "surl": "https://gede.5read.com/g/66986802.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/66986802.h",
+            "index": 16
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2887,
+            "issueId": "MZ12023150",
+            "name": "2021年第33期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210826/BJZB202133.jpg",
+            "surl": "https://gede.5read.com/g/73158817.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/73158817.h",
+            "index": 111
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2888,
+            "issueId": "MZ12021610",
+            "name": "2021年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210428/CHMI202101.jpg",
+            "surl": "https://gede.5read.com/g/68884345.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/68884345.h",
+            "index": 17
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2886,
+            "issueId": "MZ12023542",
+            "name": "2021年第34期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211011/BJZB202134.jpg",
+            "surl": "https://gede.5read.com/g/76359050.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/76359050.h",
+            "index": 110
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2890,
+            "issueId": "MZ12023149",
+            "name": "2021年第32期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210826/BJZB202132.jpg",
+            "surl": "https://gede.5read.com/g/73158816.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/73158816.h",
+            "index": 112
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2889,
+            "issueId": "MZ12020674",
+            "name": "2020年第12期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210127/CHMI202012.jpg",
+            "surl": "https://gede.5read.com/g/64688484.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/64688484.h",
+            "index": 18
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2891,
+            "issueId": "MZ12023148",
+            "name": "2021年第31期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210826/BJZB202131.jpg",
+            "surl": "https://gede.5read.com/g/73158815.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/73158815.h",
+            "index": 113
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2893,
+            "issueId": "MZ12023147",
+            "name": "2021年第30期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210826/BJZB202130.jpg",
+            "surl": "https://gede.5read.com/g/73158814.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/73158814.h",
+            "index": 114
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2892,
+            "issueId": "MZ12020182",
+            "name": "2020年第11期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210107/CHMI202011.jpg",
+            "surl": "https://gede.5read.com/g/64420457.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/64420457.h",
+            "index": 19
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2894,
+            "issueId": "MZ12017764",
+            "name": "2020年第06期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200803/LLJY202006.jpg",
+            "surl": "https://gede.5read.com/g/54139538.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/54139538.h",
+            "index": 40
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2895,
+            "issueId": "MZ12023146",
+            "name": "2021年第29期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210826/BJZB202129.jpg",
+            "surl": "https://gede.5read.com/g/73158813.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/73158813.h",
+            "index": 115
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2897,
+            "issueId": "MZ12022751",
+            "name": "2021年第28期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210729/BJZB202128.jpg",
+            "surl": "https://gede.5read.com/g/72374162.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/72374162.h",
+            "index": 116
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2896,
+            "issueId": "MZ12016762",
+            "name": "2020年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200602/LLJY202005.jpg",
+            "surl": "https://gede.5read.com/g/52527667.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52527667.h",
+            "index": 41
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2898,
+            "issueId": "MZ12016761",
+            "name": "2020年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200602/LLJY202004.jpg",
+            "surl": "https://gede.5read.com/g/52527666.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52527666.h",
+            "index": 42
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2899,
+            "issueId": "MZ12022750",
+            "name": "2021年第27期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210729/BJZB202127.jpg",
+            "surl": "https://gede.5read.com/g/72374161.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/72374161.h",
+            "index": 117
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2900,
+            "issueId": "MZ12022749",
+            "name": "2021年第26期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210729/BJZB202126.jpg",
+            "surl": "https://gede.5read.com/g/72374160.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/72374160.h",
+            "index": 118
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2902,
+            "issueId": "MZ12016759",
+            "name": "2020年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200602/LLJY202002.jpg",
+            "surl": "https://gede.5read.com/g/52527664.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52527664.h",
+            "index": 44
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2904,
+            "issueId": "MZ12031124",
+            "name": "2022年第12期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220826/SPAQ202212.jpg",
+            "surl": "https://gede.5read.com/g/89319933.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89319933.h",
+            "index": 50
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2903,
+            "issueId": "MZ12016758",
+            "name": "2020年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200602/LLJY202001.jpg",
+            "surl": "https://gede.5read.com/g/52527663.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52527663.h",
+            "index": 45
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2906,
+            "issueId": "MZ12030005",
+            "name": "2022年第10期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220630/SPAQ202210.jpg",
+            "surl": "https://gede.5read.com/g/88837770.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/88837770.h",
+            "index": 52
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2907,
+            "issueId": "MZ12022748",
+            "name": "2021年第25期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210729/BJZB202125.jpg",
+            "surl": "https://gede.5read.com/g/72374159.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/72374159.h",
+            "index": 119
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2908,
+            "issueId": "MZ12030613",
+            "name": "2022年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220727/SPAQ202209.jpg",
+            "surl": "https://gede.5read.com/g/89236344.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89236344.h",
+            "index": 53
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2909,
+            "issueId": "MZ12029440",
+            "name": "2022年第08期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220526/SPAQ202208.jpg",
+            "surl": "https://gede.5read.com/g/87115326.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/87115326.h",
+            "index": 54
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2910,
+            "issueId": "MZ12030004",
+            "name": "2022年第07期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220630/SPAQ202207.jpg",
+            "surl": "https://gede.5read.com/g/88837769.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/88837769.h",
+            "index": 55
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2912,
+            "issueId": "MZ12029439",
+            "name": "2022年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220526/SPAQ202205.jpg",
+            "surl": "https://gede.5read.com/g/87115325.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/87115325.h",
+            "index": 57
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2914,
+            "issueId": "MZ12020673",
+            "name": "2020年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210127/CHMI202009.jpg",
+            "surl": "https://gede.5read.com/g/64688483.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/64688483.h",
+            "index": 20
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2913,
+            "issueId": "MZ12028889",
+            "name": "2022年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220428/SPAQ202204.jpg",
+            "surl": "https://gede.5read.com/g/85867612.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/85867612.h",
+            "index": 58
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2916,
+            "issueId": "MZ12035740",
+            "name": "2023年第10期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230625/BASH202310.jpg",
+            "surl": "https://gede.5read.com/g/89684944.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89684944.h",
+            "index": 10
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2917,
+            "issueId": "MZ12018226",
+            "name": "2020年第08期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/201015/CHMI202008.jpg",
+            "surl": "https://gede.5read.com/g/58790568.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/58790568.h",
+            "index": 21
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2918,
+            "issueId": "MZ12036354",
+            "name": "2023年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230731/BASH202309.jpg",
+            "surl": "https://gede.5read.com/g/89712105.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89712105.h",
+            "index": 11
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2919,
+            "issueId": "MZ12017944",
+            "name": "2020年第07期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200903/CHMI202007.jpg",
+            "surl": "https://gede.5read.com/g/55327525.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/55327525.h",
+            "index": 22
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2920,
+            "issueId": "MZ12017579",
+            "name": "2020年第06期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200803/CHMI202006.jpg",
+            "surl": "https://gede.5read.com/g/54139353.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/54139353.h",
+            "index": 23
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2921,
+            "issueId": "MZ12035303",
+            "name": "2023年第08期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230528/BASH202308.jpg",
+            "surl": "https://gede.5read.com/g/89657769.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89657769.h",
+            "index": 12
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2922,
+            "issueId": "MZ12035302",
+            "name": "2023年第07期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230528/BASH202307.jpg",
+            "surl": "https://gede.5read.com/g/89657768.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89657768.h",
+            "index": 13
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2926,
+            "issueId": "MZ12033687",
+            "name": "2023年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230228/BASH202302.jpg",
+            "surl": "https://gede.5read.com/g/89526515.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89526515.h",
+            "index": 17
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2925,
+            "issueId": "MZ12034229",
+            "name": "2023年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230405/BASH202304.jpg",
+            "surl": "https://gede.5read.com/g/89564566.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89564566.h",
+            "index": 16
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2927,
+            "issueId": "MZ12033686",
+            "name": "2023年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230228/BASH202301.jpg",
+            "surl": "https://gede.5read.com/g/89526514.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89526514.h",
+            "index": 18
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2928,
+            "issueId": "MZ12033257",
+            "name": "2022年第24期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230131/BASH202224.jpg",
+            "surl": "https://gede.5read.com/g/89502001.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89502001.h",
+            "index": 19
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2930,
+            "issueId": "MZ12018225",
+            "name": "2020年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/201015/CHMI202004.jpg",
+            "surl": "https://gede.5read.com/g/58790567.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/58790567.h",
+            "index": 25
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2933,
+            "issueId": "MZ12037615",
+            "name": "2023年第10期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231103/DFQJ202310.jpg",
+            "surl": "https://gede.5read.com/g/89920815.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89920815.h",
+            "index": 1
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2934,
+            "issueId": "MZ12037614",
+            "name": "2023年第09期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/231103/DFQJ202309.jpg",
+            "surl": "https://gede.5read.com/g/89920814.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89920814.h",
+            "index": 2
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2936,
+            "issueId": "MZ12036420",
+            "name": "2023年第07期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230731/DFQJ202307.jpg",
+            "surl": "https://gede.5read.com/g/89712171.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89712171.h",
+            "index": 4
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2937,
+            "issueId": "MZ12035808",
+            "name": "2023年第06期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230625/DFQJ202306.jpg",
+            "surl": "https://gede.5read.com/g/89685012.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89685012.h",
+            "index": 5
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2938,
+            "issueId": "MZ12035807",
+            "name": "2023年第05期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230625/DFQJ202305.jpg",
+            "surl": "https://gede.5read.com/g/89685011.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89685011.h",
+            "index": 6
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2939,
+            "issueId": "MZ12034784",
+            "name": "2023年第04期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230426/DFQJ202304.jpg",
+            "surl": "https://gede.5read.com/g/89631467.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89631467.h",
+            "index": 7
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2941,
+            "issueId": "MZ12033742",
+            "name": "2023年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/230228/DFQJ202302.jpg",
+            "surl": "https://gede.5read.com/g/89526570.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89526570.h",
+            "index": 9
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2942,
+            "issueId": "MZ12022747",
+            "name": "2021年第24期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210729/BJZB202124.jpg",
+            "surl": "https://gede.5read.com/g/72374158.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/72374158.h",
+            "index": 120
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2943,
+            "issueId": "MZ12022746",
+            "name": "2021年第23期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210729/BJZB202123.jpg",
+            "surl": "https://gede.5read.com/g/72374157.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/72374157.h",
+            "index": 121
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2944,
+            "issueId": "MZ12022301",
+            "name": "2021年第22期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210629/BJZB202122.jpg",
+            "surl": "https://gede.5read.com/g/71589039.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/71589039.h",
+            "index": 122
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2945,
+            "issueId": "MZ12017577",
+            "name": "2020年第02期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200803/CHMI202002.jpg",
+            "surl": "https://gede.5read.com/g/54139351.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/54139351.h",
+            "index": 27
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2946,
+            "issueId": "MZ12016495",
+            "name": "2020年第01期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/200602/CHMI202001.jpg",
+            "surl": "https://gede.5read.com/g/52527400.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/52527400.h",
+            "index": 28
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2947,
+            "issueId": "MZ12022300",
+            "name": "2021年第21期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210629/BJZB202121.jpg",
+            "surl": "https://gede.5read.com/g/71589038.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/71589038.h",
+            "index": 123
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2948,
+            "issueId": "MZ12022299",
+            "name": "2021年第20期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210629/BJZB202120.jpg",
+            "surl": "https://gede.5read.com/g/71589037.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/71589037.h",
+            "index": 124
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2949,
+            "issueId": "MZ12021992",
+            "name": "2021年第19期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210527/BJZB202119.jpg",
+            "surl": "https://gede.5read.com/g/70276717.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/70276717.h",
+            "index": 125
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2950,
+            "issueId": "MZ12021991",
+            "name": "2021年第18期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210527/BJZB202118.jpg",
+            "surl": "https://gede.5read.com/g/70276716.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/70276716.h",
+            "index": 126
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2952,
+            "issueId": "MZ12021989",
+            "name": "2021年第16期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210527/BJZB202116.jpg",
+            "surl": "https://gede.5read.com/g/70276714.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/70276714.h",
+            "index": 128
+        },
+        "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+        "issue": {
+            "id": 2972,
+            "issueId": "MZ12030792",
+            "name": "2022年第15期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/220826/BASH202215.jpg",
+            "surl": "https://gede.5read.com/g/89319601.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/89319601.h",
+            "index": 28
+        },
+        "message": "获取 detailUrl 失败"
+    },
+    {
+        "issue": {
+            "id": 5389,
+            "issueId": "MZ12023149",
+            "name": "2021年第32期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/210826/BJZB202132.jpg",
+            "surl": "https://gede.5read.com/g/73158816.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/73158816.h",
+            "index": 112
+        },
+        "message": "接口返回值为空，请确认各项参数是否正确"
+    },
+    {
+        "issue": {
+            "id": 22491,
+            "issueId": "MZ12025798",
+            "name": "2021年第08期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211207/XNZS202108.jpg",
+            "surl": "https://gede.5read.com/g/80960224.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/80960224.h",
+            "index": 25
+        },
+        "message": "epub文件不存在"
+    },
+    {
+        "issue": {
+            "id": 23425,
+            "issueId": "MZ12027018",
+            "name": "2021年第22期",
+            "cover": "https://gdfile.superlib.com/C/Magazine/scover/211228/ZJXS202122.jpg",
+            "surl": "https://gede.5read.com/g/81689461.h",
+            "webReader": "http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:https://gede.5read.com/g/81689461.h",
+            "index": 47
+        },
+        "message": "epub文件不存在"
+    }
+]
