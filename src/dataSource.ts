@@ -6,11 +6,11 @@ import { Issue, Magazine, MagazineCatalog, MagazineCategory, MagazineContent } f
 export const AppDataSource = new DataSource({
     type: 'mysql',
     host: '127.0.0.1',
-    port: 3306,
+    port: 3307,
     username: 'root',
     password: '12345678',
     synchronize: true,
-    database: 'iuroc_ebook_test',
+    database: 'gede_ebook',
     entities: [
         Catalog, Category, ReadItem, Content,
         Book, BookCategory, BookCatalog, BookContent,

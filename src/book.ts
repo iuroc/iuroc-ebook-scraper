@@ -9,7 +9,7 @@ export async function saveBookCategory() {
     const taskName2 = '保存图书分类列表'
 
     console.log(`[${taskName}] 开始`)
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     const bookCategories = await Book.getCategories()
     console.log(`[${taskName}] 结束`)
 
@@ -31,7 +31,7 @@ async function saveBookByCategory(category: BookCategory) {
     const taskName2 = '保存指定分类的图书列表'
 
     console.log(`[${taskName}] 开始 [${category.chaoxingId}]`)
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     const list = await Book.getList(category.chaoxingId, 0, 10000)
     console.log(`[${taskName}] 结束 [${category.chaoxingId}]`)
 
@@ -63,7 +63,7 @@ export async function saveBook() {
 
     console.log(`[${taskName}] 开始`)
     const categories = await BookCategoryRepository.find()
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     categories.forEach(category => {
         queue.add(async () => {
             try {
@@ -80,7 +80,7 @@ export async function saveBook() {
 }
 
 async function saveBookCatalog(book: BookEntity, catalogs: BookData['catalogs'], parentCatlog?: BookCatalog) {
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     catalogs.forEach((catalog, index) => {
         queue.add(async () => {
             const result = await BookCatalogRepository.insert({
@@ -99,7 +99,7 @@ async function saveBookCatalog(book: BookEntity, catalogs: BookData['catalogs'],
 }
 
 async function saveBookContent(book: BookEntity, contents: BookData['contents']) {
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     contents.forEach((content, index) => {
         queue.add(async () => {
             await BookContentRepository.insert({
@@ -132,6 +132,7 @@ async function saveBookDataByBook(book: BookEntity) {
 
 export async function saveBookData(books?: BookEntity[]) {
     const taskName = '保存图书的目录和正文'
+    let finished = 0
 
     console.log(`[${taskName}] 开始`)
     const errorList: { book: BookEntity, message: string }[] = []
@@ -146,6 +147,8 @@ export async function saveBookData(books?: BookEntity[]) {
                     console.log(`[${taskName}] 出错 [${book.id}] [${error.message}]`)
                     errorList.push({ book, message: error.message })
                 }
+            } finally {
+                console.log((finished++ / books.length * 100).toFixed(2))
             }
         })
     })

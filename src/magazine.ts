@@ -8,7 +8,7 @@ export async function saveMagazineCategory() {
     const taskName2 = '保存期刊分类列表'
 
     console.log(`[${taskName}] 开始`)
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     const magazineCategories = await Magazine.getCategories()
     console.log(`[${taskName}] 结束`)
 
@@ -30,7 +30,7 @@ export async function saveMagazineByCategory(category: MagazineCategory) {
     const taskName2 = '保存指定分类的期刊列表'
 
     console.log(`[${taskName}] 开始 [${category.chaoxingId}]`)
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     const list = await Magazine.getList(category.chaoxingId, 0, 10000)
     console.log(`[${taskName}] 结束 [${category.chaoxingId}]`)
 
@@ -58,7 +58,7 @@ export async function saveMagazine() {
 
     console.log(`[${taskName}] 开始`)
     const categories = await MagazineCategoryRepository.find()
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     categories.forEach(category => {
         queue.add(async () => {
             await saveMagazineByCategory(category)
@@ -72,7 +72,7 @@ async function saveIssueByMagazine(magazine: MagazineEntity) {
     const taskName = '获取指定期刊的分期列表'
     const taskName2 = '保存指定期刊的分期列表'
 
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     console.log(`[${taskName}] 开始 [${magazine.id}]`)
     const issues = await Magazine.getIssues(parseInt(magazine.chaoxingId))
     console.log(`[${taskName}] 结束 [${magazine.id}]`)
@@ -99,7 +99,7 @@ export async function saveIssue() {
     const taskName = '获取期刊分期列表'
 
     console.log(`[${taskName}] 开始`)
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     const magazines = await MagazineRepository.find()
     magazines.forEach(magazine => {
         queue.add(async () => {
@@ -117,7 +117,7 @@ export async function saveIssue() {
 }
 
 async function saveMagazineCatalog(issue: Issue, catalogs: BookData['catalogs'], parentCatlog?: MagazineCatalog) {
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     catalogs.forEach((catalog, index) => {
         queue.add(async () => {
             const result = await MagazineCatalogRepository.insert({
@@ -136,7 +136,7 @@ async function saveMagazineCatalog(issue: Issue, catalogs: BookData['catalogs'],
 }
 
 async function saveeMagazineContent(issue: Issue, contents: BookData['contents']) {
-    const queue = new PQueue({ concurrency: 20 })
+    const queue = new PQueue({ concurrency: 10 })
     contents.forEach((content, index) => {
         queue.add(async () => {
             await MagazineContentRepository.insert({
@@ -169,6 +169,7 @@ async function saveMagazineDataByIssue(issue: Issue) {
 
 export async function saveMagazineData(issues?: Issue[]) {
     const taskName = '保存期刊分期的目录和正文'
+    let finished = 0
 
     console.log(`[${taskName}] 开始`)
     const errorList: { issue: Issue, message: string }[] = []
@@ -183,6 +184,8 @@ export async function saveMagazineData(issues?: Issue[]) {
                     console.log(`[${taskName}] 出错 [${issue.issueId}] [${error.message}]`)
                     errorList.push({ issue, message: error.message })
                 }
+            } finally {
+                console.log((finished++ / issues.length * 100).toFixed(2))
             }
         })
     })
