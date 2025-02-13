@@ -1,5 +1,5 @@
 {
-  "name": "iuroc-book-collect",
+  "name": "iuroc-ebook-scraper",
   "version": "1.0.1",
   "description": "电子书采集程序",
   "scripts": {
