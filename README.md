@@ -41,16 +41,16 @@ import { entities, BookCategory } from 'gede-book-entity'
 import { DataSource } from 'typeorm'
 
 const AppDataSource = new DataSource({
-    type: 'mysql',
-    host: 'localhost',
-    port: 3306,
-    username: 'root',
-    password: '12345678',
-    synchronize: false,
-    entities: [
-        ...entities
-    ],
-    database: 'iuroc_ebook_test'
+   type: 'mysql',
+   host: 'localhost',
+   port: 3306,
+   username: 'root',
+   password: '12345678',
+   synchronize: false,
+   entities: [
+      ...entities
+   ],
+   database: 'iuroc_ebook_test'
 })
 
 await AppDataSource.initialize()
