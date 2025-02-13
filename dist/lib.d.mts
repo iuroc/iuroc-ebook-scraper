@@ -1,5 +1,3 @@
-import { BookItem } from 'gede-book-api';
-
 declare abstract class Category {
     id: number;
     chaoxingId: number;
@@ -37,34 +35,6 @@ declare abstract class Content {
     content: string;
 }
 
-declare class BookCategory extends Category {
-    items: Book[];
-}
-declare class Book extends ReadItem {
-    author: string;
-    /** 出版社名称 */
-    publish: string;
-    /** 大尺寸封面 */
-    bigCover: string;
-    /** 图书专属，阅读器网页链接 */
-    webReader: string;
-    /** 图书专属，图书资源类型 */
-    idType: BookItem['type'];
-    /** 图书专属 */
-    isbn: string;
-    category: BookCategory;
-    catalogs: BookCatalog[];
-    contents: BookContent[];
-}
-declare class BookCatalog extends Catalog {
-    childrens: BookCatalog[];
-    parent: BookCatalog;
-    book: Book;
-}
-declare class BookContent extends Content {
-    book: Book;
-}
-
 declare class MagazineCategory extends Category {
     items: Magazine[];
 }
@@ -97,4 +67,6 @@ declare class MagazineContent extends Content {
     issue: Issue;
 }
 
-export { Book, BookCatalog, BookCategory, BookContent, Catalog, Category, Content, Issue, Magazine, MagazineCatalog, MagazineCategory, MagazineContent, ReadItem };
+declare const entities: (typeof Catalog | typeof Category | typeof ReadItem | typeof Content | typeof Issue)[];
+
+export { entities };
