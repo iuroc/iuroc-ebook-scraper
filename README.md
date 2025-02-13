@@ -33,6 +33,7 @@ SELECT * FROM content WHERE bookId = 4466;
 
 ```bash
 pnpm add gede-book-entity
+pnpm add typeorm
 ```
 
 ```typescript
