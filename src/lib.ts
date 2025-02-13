@@ -8,3 +8,9 @@ export const entities = [
     Book, BookCategory, BookCatalog, BookContent,
     Magazine, MagazineCategory, MagazineCatalog, Issue, MagazineContent
 ]
+
+export {
+    Catalog, Category, ReadItem, Content,
+    Book, BookCategory, BookCatalog, BookContent,
+    Magazine, MagazineCategory, MagazineCatalog, Issue, MagazineContent
+}

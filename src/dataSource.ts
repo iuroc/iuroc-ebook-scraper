@@ -1,7 +1,8 @@
 import { DataSource } from 'typeorm'
-import { Catalog, Category, Content, ReadItem } from './entity/common.js'
+import { Catalog, Category, ReadItem } from './entity/common.js'
 import { Book, BookCatalog, BookCategory, BookContent } from './entity/book.js'
 import { Issue, Magazine, MagazineCatalog, MagazineCategory, MagazineContent } from './entity/magazine.js'
+import { entities } from './lib.js'
 
 export const AppDataSource = new DataSource({
     type: 'mysql',
@@ -11,11 +12,7 @@ export const AppDataSource = new DataSource({
     password: '12345678',
     synchronize: true,
     database: 'iuroc_ebook_test',
-    entities: [
-        Catalog, Category, ReadItem, Content,
-        Book, BookCategory, BookCatalog, BookContent,
-        Magazine, MagazineCategory, MagazineCatalog, Issue, MagazineContent,
-    ]
+    entities
 })
 
 export const BookCategoryRepository = AppDataSource.getRepository(BookCategory)
