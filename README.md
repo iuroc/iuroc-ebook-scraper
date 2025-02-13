@@ -13,6 +13,7 @@
    - 修改 `retryTask()` 的 `errorList` 文件名，可根据需要调整逻辑（如仅重试 Book 或 Magazine）。
    - 运行 `pnpm start`。
 6. **最终检查**：程序结束后，重复步骤 4，确保所有数据正确解析。
+7. **下载图片**：取消注释 `await downAllImage()` 开始下载全部图片，文件名以 sha1 编码图片 URL 后，加上 `.jpg` 得到。
 
 ## 数据库查询示例
 

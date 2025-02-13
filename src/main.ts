@@ -71,10 +71,9 @@ async function downAllImage() {
     await downloadQueue.onIdle()
 }
 
-// firstTask()
-// retryTask()
-
-await downAllImage()
+// await firstTask()
+// await retryTask()
+// await downAllImage()
 
 console.log('[销毁数据源] 开始')
 await AppDataSource.destroy()
