@@ -28,3 +28,13 @@ SELECT * FROM catalog WHERE bookId = 4466;
 -- 获取指定图书的正文
 SELECT * FROM content WHERE bookId = 4466;
 ```
+
+## 引用本项目
+
+```bash
+pnpm add gede-book-entity
+```
+
+```typescript
+
+```
