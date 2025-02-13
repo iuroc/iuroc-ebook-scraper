@@ -1,6 +1,6 @@
 {
-  "name": "iuroc-ebook-scraper",
-  "version": "1.0.2",
+  "name": "iuroc-ebook-entity",
+  "version": "1.0.0",
   "description": "电子书采集程序",
   "scripts": {
     "start": "tsx src/main.ts",
