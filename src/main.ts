@@ -1,8 +1,10 @@
-import { AppDataSource } from './dataSource.js'
+import { AppDataSource, BookRepository, IssueRepository, ReadItemRepository } from './dataSource.js'
 import { readFileSync, writeFileSync } from 'fs'
 import { saveIssue, saveMagazine, saveMagazineCategory, saveMagazineData } from './magazine.js'
 import { saveBook, saveBookCategory, saveBookData } from './book.js'
 import { Issue } from './entity/magazine.js'
+import PQueue from 'p-queue'
+import { download as downloadImage } from './image.js'
 
 console.log('[初始化数据源] 开始')
 await AppDataSource.initialize()
@@ -32,8 +34,47 @@ async function retryTask() {
     })
 }
 
+async function downAllImage() {
+    const downloadQueue = new PQueue({ concurrency: 20 })
+    const errorList: { url: string, message: string }[] = []
+    let finished = 0
+    const downloadDir = 'D:/BestCode/project/iuroc-ebook-images'
+    const images: string[] = []
+
+    // 图书和期刊普通封面
+    const result = await ReadItemRepository.find({ select: { cover: true } })
+    images.push(...result.map(item => item.cover))
+
+    // 图书大封面
+    const result2 = await BookRepository.find({ select: { bigCover: true } })
+    images.push(...result2.map(item => item.bigCover))
+
+    // 期刊分期封面
+    const result3 = await IssueRepository.find({ select: { cover: true } })
+    images.push(...result3.map(item => item.cover))
+
+    images.forEach(url => {
+        downloadQueue.add(async () => {
+            try {
+                await downloadImage(url, downloadDir)
+                console.log((++finished / images.length).toFixed(2))
+            } catch (error) {
+                if (error instanceof Error) {
+                    errorList.push({
+                        url: url,
+                        message: error.message
+                    })
+                }
+            }
+        })
+    })
+    await downloadQueue.onIdle()
+}
+
 // firstTask()
 // retryTask()
+
+await downAllImage()
 
 console.log('[销毁数据源] 开始')
 await AppDataSource.destroy()
