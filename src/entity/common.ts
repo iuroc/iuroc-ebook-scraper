@@ -5,7 +5,6 @@ import {
     PrimaryGeneratedColumn,
     TableInheritance,
 } from 'typeorm'
-import { Issue } from './magazine.js'
 
 @Entity({ comment: '书刊分类' })
 @TableInheritance({ column: { type: 'varchar', name: 'type' } })

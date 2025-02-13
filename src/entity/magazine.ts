@@ -3,11 +3,9 @@ import {
     Column,
     Entity,
     Index,
-    JoinColumn,
     ManyToOne,
     OneToMany,
     PrimaryGeneratedColumn,
-    Unique,
 } from 'typeorm'
 import { Catalog, Category, Content, ReadItem } from './common.js'
 

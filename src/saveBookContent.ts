@@ -1,4 +1,4 @@
-import PQueue from "p-queue"
+import PQueue from 'p-queue'
 import { BookCatalogRepository, BookContentRepository, BookRepository } from "./dataSource.js"
 import { Book as BookEntity } from './entity/book.js'
 import { Book, BookData } from "gede-book-api"

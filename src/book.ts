@@ -1,8 +1,7 @@
 import { Book, BookData } from 'gede-book-api'
 import PQueue from 'p-queue'
 import { BookCatalogRepository, BookCategoryRepository, BookContentRepository, BookRepository } from './dataSource.js'
-import { BookCatalog, BookCategory, BookContent, Book as BookEntity } from './entity/book.js'
-import { parseCatalogs } from './util.js'
+import { BookCatalog, BookCategory, Book as BookEntity } from './entity/book.js'
 
 export async function saveBookCategory() {
     const taskName = '获取图书分类列表'
