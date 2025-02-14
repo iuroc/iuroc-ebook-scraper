@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm'
-import { Catalog, Category, ReadItem } from './entity/common.js'
+import { Catalog, Category, Content, ReadItem } from './entity/common.js'
 import { Book, BookCatalog, BookCategory, BookContent } from './entity/book.js'
 import { Issue, Magazine, MagazineCatalog, MagazineCategory, MagazineContent } from './entity/magazine.js'
 import { entities } from './lib.js'
@@ -10,7 +10,7 @@ export const AppDataSource = new DataSource({
     port: 3306,
     username: 'root',
     password: '12345678',
-    synchronize: true,
+    synchronize: false,
     database: 'iuroc_ebook_test',
     entities
 })
@@ -24,6 +24,7 @@ export const ReadItemRepository = AppDataSource.getRepository(ReadItem)
 export const IssueRepository = AppDataSource.getRepository(Issue)
 export const BookContentRepository = AppDataSource.getRepository(BookContent)
 export const MagazineContentRepository = AppDataSource.getRepository(MagazineContent)
+export const ContentRepository = AppDataSource.getRepository(Content)
 export const BookCatalogRepository = AppDataSource.getRepository(BookCatalog)
 export const MagazineCatalogRepository = AppDataSource.getRepository(MagazineCatalog)
 export const CatalogRepository = AppDataSource.getRepository(Catalog)

@@ -1,4 +1,4 @@
-import { AppDataSource, BookRepository, IssueRepository, ReadItemRepository } from './dataSource.js'
+import { AppDataSource, BookContentRepository, BookRepository, ContentRepository, IssueRepository, ReadItemRepository } from './dataSource.js'
 import { readFileSync, writeFileSync } from 'fs'
 import { saveIssue, saveMagazine, saveMagazineCategory, saveMagazineData } from './magazine.js'
 import { saveBook, saveBookCategory, saveBookData } from './book.js'
@@ -35,29 +35,38 @@ async function retryTask() {
 }
 
 async function downAllImage() {
-    const downloadQueue = new PQueue({ concurrency: 20 })
+    const downloadQueue = new PQueue({ concurrency: 50 })
     const errorList: { url: string, message: string }[] = []
     let finished = 0
-    const downloadDir = 'D:/BestCode/project/iuroc-ebook-images'
+    const downloadDir = 'E:/其他文件/数据库备份/iuroc-ebook-images'
     const images: string[] = []
 
-    // 图书和期刊普通封面
-    const result = await ReadItemRepository.find({ select: { cover: true } })
-    images.push(...result.map(item => item.cover))
+    // // 图书和期刊普通封面
+    // const result = await ReadItemRepository.find({ select: { cover: true } })
+    // images.push(...result.map(item => item.cover))
 
-    // 图书大封面
-    const result2 = await BookRepository.find({ select: { bigCover: true } })
-    images.push(...result2.map(item => item.bigCover))
+    // // 图书大封面
+    // const result2 = await BookRepository.find({ select: { bigCover: true } })
+    // images.push(...result2.map(item => item.bigCover))
 
-    // 期刊分期封面
-    const result3 = await IssueRepository.find({ select: { cover: true } })
-    images.push(...result3.map(item => item.cover))
+    // // 期刊分期封面
+    // const result3 = await IssueRepository.find({ select: { cover: true } })
+    // images.push(...result3.map(item => item.cover))
+
+    // 正文插图
+    // await pushImagesInContents(images)
+    const contents = await ContentRepository.find({ select: { content: true } })
+    contents.forEach(content => {
+        content.content.matchAll(/<img[^>]*\s+src=["']([^"']+)["']/g).forEach(result => {
+            images.push(result[1])
+        })
+    })
 
     images.forEach(url => {
         downloadQueue.add(async () => {
             try {
                 await downloadImage(url, downloadDir)
-                console.log((++finished / images.length).toFixed(2))
+                if (++finished % 20 == 0) console.log((finished / images.length * 100).toFixed(2))
             } catch (error) {
                 if (error instanceof Error) {
                     errorList.push({
@@ -69,11 +78,36 @@ async function downAllImage() {
         })
     })
     await downloadQueue.onIdle()
+    writeFileSync('errorList_downAllImage.json', JSON.stringify(errorList))
+}
+
+async function pushImagesInContents(images: string[]) {
+    const batchSize = 10000
+    let offset = 0
+    let hasMoreData = true
+    while (hasMoreData) {
+        const contents = await ContentRepository.find({
+            select: { content: true },
+            take: batchSize,
+            skip: offset,
+        })
+        if (contents.length === 0) {
+            hasMoreData = false
+            break
+        }
+        for (const content of contents) {
+            const matches = content.content.matchAll(/<img[^>]*\s+src=["']([^"']+)["']/g)
+            for (const match of matches) {
+                images.push(match[1])
+            }
+        }
+        offset += batchSize
+    }
 }
 
 // await firstTask()
 // await retryTask()
-// await downAllImage()
+await downAllImage()
 
 console.log('[销毁数据源] 开始')
 await AppDataSource.destroy()

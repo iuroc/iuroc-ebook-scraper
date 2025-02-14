@@ -8,7 +8,7 @@ export async function download(url: string, dir: string) {
     const filename = crypto.createHash('sha1').update(url).digest('hex') + '.jpg'
     const filepath = join(dir, filename)
     if (existsSync(filepath)) {
-        console.log(`${filepath} 已存在，跳过下载`)
+        // console.log(`${filepath} 已存在，跳过下载`)
         return
     }
     const arrayBuffer = await fetch(url).then(res => res.arrayBuffer())
