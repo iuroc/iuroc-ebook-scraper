@@ -41,26 +41,30 @@ async function downAllImage() {
     const downloadDir = 'E:/其他文件/数据库备份/iuroc-ebook-images'
     const images: string[] = []
 
-    // // 图书和期刊普通封面
+    // 图书和期刊普通封面
     // const result = await ReadItemRepository.find({ select: { cover: true } })
     // images.push(...result.map(item => item.cover))
 
-    // // 图书大封面
+    // 图书大封面
     // const result2 = await BookRepository.find({ select: { bigCover: true } })
     // images.push(...result2.map(item => item.bigCover))
 
-    // // 期刊分期封面
+    // 期刊分期封面
     // const result3 = await IssueRepository.find({ select: { cover: true } })
     // images.push(...result3.map(item => item.cover))
 
-    // 正文插图
+    // 正文插图（请先设置 $env:NODE_OPTIONS="--max-old-space-size=25192"）
     // await pushImagesInContents(images)
-    const contents = await ContentRepository.find({ select: { content: true } })
-    contents.forEach(content => {
-        content.content.matchAll(/<img[^>]*\s+src=["']([^"']+)["']/g).forEach(result => {
-            images.push(result[1])
-        })
-    })
+    // const contents = await ContentRepository.find({ select: { content: true } })
+    // contents.forEach(content => {
+    //     content.content.matchAll(/<img[^>]*\s+src=["']([^"']+)["']/g).forEach(result => {
+    //         images.push(result[1])
+    //     })
+    // })
+
+    // 重试下载
+    // const list = JSON.parse(readFileSync('errorList_downAllImage').toString()) as { url: string, message: string }[]
+    // images.push(...list.map(i => i.url))
 
     images.forEach(url => {
         downloadQueue.add(async () => {
@@ -107,7 +111,7 @@ async function pushImagesInContents(images: string[]) {
 
 // await firstTask()
 // await retryTask()
-await downAllImage()
+// await downAllImage()
 
 console.log('[销毁数据源] 开始')
 await AppDataSource.destroy()
