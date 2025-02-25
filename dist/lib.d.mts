@@ -17,6 +17,7 @@ declare abstract class ReadItem {
     /** 普通封面 */
     cover: string;
     chaoxingId: string;
+    type: 'book' | 'magazine';
     /** 该书刊所属的分类 */
     abstract category: Category;
 }
@@ -26,6 +27,7 @@ declare abstract class Catalog {
     title: string;
     parentId: number;
     index: number;
+    type: 'book' | 'magazine';
     /** 该目录的子目录列表 */
     abstract childrens: Catalog[];
     /** 该目录的父目录 */
@@ -35,6 +37,7 @@ declare abstract class Content {
     id: number;
     index: number;
     content: string;
+    type: 'book' | 'magazine';
 }
 
 declare class BookCategory extends Category {

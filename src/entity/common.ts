@@ -52,6 +52,9 @@ export abstract class ReadItem {
     @Index()
     chaoxingId!: string
 
+    @Column('varchar')
+    type!: 'book' | 'magazine'
+
     /** 该书刊所属的分类 */
     abstract category: Category
 }
@@ -74,6 +77,9 @@ export abstract class Catalog {
     @Column('int')
     index!: number
 
+    @Column('varchar')
+    type!: 'book' | 'magazine'
+
     /** 该目录的子目录列表 */
     abstract childrens: Catalog[]
     /** 该目录的父目录 */
@@ -91,4 +97,7 @@ export abstract class Content {
 
     @Column('longtext')
     content!: string
+
+    @Column('varchar')
+    type!: 'book' | 'magazine'
 }

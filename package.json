@@ -1,6 +1,6 @@
 {
   "name": "gede-book-entity",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "电子书采集程序",
   "scripts": {
     "start": "tsx src/main.ts",
